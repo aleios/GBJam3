@@ -175,3 +175,4 @@ FakesAssemblies/
 
 # Swap files
 *.swp
+*.o

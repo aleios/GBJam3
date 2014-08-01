@@ -1,0 +1,4 @@
+-DLIN
+-Iinclude/
+
+-std=c++0x

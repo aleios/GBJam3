@@ -31,7 +31,7 @@ bool ModStream::load(const std::string& filename)
     modFile.seekg(0, std::ifstream::end);
     std::streamoff bufferSize = modFile.tellg();
     modFile.seekg(0, std::ios::beg);
-    std::cout << "Buffer Size: " << bufferSize << "\n";
+    //std::cout << "Buffer Size: " << bufferSize << "\n";
     data.resize(bufferSize);
     modFile.read(&data[0], bufferSize);
 

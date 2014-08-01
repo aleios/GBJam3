@@ -7,7 +7,7 @@ ifdef DEBUG
 else
 	CFLAGS += -O3
 endif
-FILES=main.cpp game.cpp modstream.cpp
+FILES=main.cpp game.cpp modstream.cpp spritefont.cpp spritetext.cpp
 OBJDIR=build
 SRCDIR=src
 SOURCES=$(addprefix $(SRCDIR)/,$(FILES))
